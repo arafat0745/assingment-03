@@ -4,8 +4,8 @@ var fileName= "pdfData.jpg";
 
 if (
     fileName.startsWith("#") ||
-    fileName.startsWith(".pdf") ||
-    fileName.startsWith(".docx")
+    fileName.endsWith(".pdf") ||
+    fileName.endsWith(".docx")
 ){
     console.log("store");
 
