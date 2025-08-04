@@ -7,7 +7,7 @@ if (
     fileName.endsWith(".pdf") ||
     fileName.endsWith(".docx")
 ){
-    console.log("store");
+    console.log("Store");
 
 } else {
     console.log("Delete");
